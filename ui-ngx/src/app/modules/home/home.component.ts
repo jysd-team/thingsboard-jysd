@@ -1,5 +1,5 @@
 ///
-/// Copyright © 2016-2023 The Thingsboard Authors
+/// Copyright © 2016-2023 The Jysd Authors
 ///
 /// Licensed under the Apache License, Version 2.0 (the "License");
 /// you may not use this file except in compliance with the License.
@@ -49,7 +49,7 @@ export class HomeComponent extends PageComponent implements AfterViewInit, OnIni
   sidenavMode: 'over' | 'push' | 'side' = 'side';
   sidenavOpened = true;
 
-  logo = 'assets/logo_title_white.svg';
+  logo = 'assets/logo_title_white.png';
 
   @ViewChild('sidenav')
   sidenav: MatSidenav;

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2016-2023 The Thingsboard Authors
+ * Copyright © 2016-2023 The jysd Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-const forwardUrl = "http://localhost:8080";
-const wsForwardUrl = "ws://localhost:8080";
+const forwardUrl = "http://175.178.216.187:8081";
+const wsForwardUrl = "ws://175.178.216.187:8081";
 const ruleNodeUiforwardUrl = forwardUrl;
 
 const PROXY_CONFIG = {
