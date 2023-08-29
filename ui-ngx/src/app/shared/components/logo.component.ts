@@ -26,7 +26,7 @@ export class LogoComponent {
   logo = 'assets/logo_title_white.png';
 
   gotoThingsboard(): void {
-    window.open('https://thingsboard.io', '_blank');
+    window.open('http://www.jyera.com', '_blank');
   }
 
 }
